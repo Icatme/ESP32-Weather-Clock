@@ -1,0 +1,12 @@
+FS
+WiFi
+DNSServer
+WiFiManager
+lvgl
+ArduinoJson
+TFT_Touch
+Update
+WiFiClientSecure
+Wire
+SPIFFS
+WebServer
