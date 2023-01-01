@@ -66,11 +66,11 @@ void Display::init()
      *  3 - "Landscape Inverted"
      */
     tft.setRotation(1);  
-    tft.fillScreen(BLACK);
+    tft.fillScreen(BLUE);
 #else
     uint16_t identifier = 0x0;
 
-    tft.fillScreen(BLACK);
+    tft.fillScreen(BLUE);
     tft.reset();
 
     identifier = tft.readID();
@@ -92,7 +92,7 @@ void Display::init()
 
     tft.begin(identifier);
     tft.setRotation(1);  
-    tft.fillScreen(BLACK);
+    tft.fillScreen(BLUE);
 #endif
 
 	lv_disp_buf_init(&disp_buf, buf, NULL, LV_HOR_RES_MAX * 10);
